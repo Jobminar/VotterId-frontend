@@ -1,0 +1,146 @@
+/* @media screen and (min-width:360px) and (max-width:600px){ */
+   .container
+   {
+    margin: 0.5rem;
+    width: 95%;
+    height: 100%;
+  
+    padding: 0;
+   } 
+   .sub-container
+   {
+    height: 45%;
+   }
+   .header
+   {
+    background-color: black;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    
+   }
+        .logo
+        {
+            width: 4rem;
+            height: 5rem;
+            border-radius: 50%;
+            background-color: aliceblue;
+            margin: 1rem;
+          
+        }
+        .profile-logo
+        {
+            width: 4rem;
+            height: 4rem;
+            border-radius:50%;
+            background-color: aliceblue;
+            margin: 1rem;
+            margin-right: 1.8rem;
+        }
+   .middle{
+    margin-top: 1.5rem;
+    width: 100%;
+    display: flex;
+    height: 50%;
+   
+   }
+        .availabe-status
+        {
+            width: 70%;
+            height: 100%;
+            border: 1px solid green;
+            border-radius: 20%;
+            
+            justify-content: center;
+        
+        }
+        .available
+        {
+            margin: 2.5rem;
+        }
+            .slide {
+            border: 1px solid blue;
+            background-color:red; /* Green color */
+            color: green;
+            }
+            .slide {
+                background-color: rgba(76, 175, 80, 0.38); /* Lighter shade of green */
+            }
+            .availabe-status pre{
+                width: 100%;
+                border: 1px solid blue;
+            }
+            .av-tittle
+            {
+                font-family: 'roboto';
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 1rem;
+            }
+            .av-text
+            {
+                color: gray;
+                font-family: 'roboto';
+                font-size: 16px;
+                font-weight: 400;
+            }
+            .bell-language
+            {
+                width: 30%;
+                /* border: 1px solid black; */
+                display: grid;
+                justify-content: center;
+            }
+            .bell {
+                margin-top: 1.5rem;
+                justify-content: center;
+            }
+            .Language span
+            {
+                color: blue;
+                font-family: 'roboto';
+                font-weight: 400;
+            }
+            .language
+            {
+                border: none;
+                font-size: 1rem;
+            }
+    .cancvasing-report
+    {
+        border: 1px solid red;
+        width: 100%;
+        height: 55%;
+        display: grid;
+       
+        row-gap: 20%;
+        justify-content: center;
+        padding: 0;
+        border-radius: 0.5rem;
+    }
+    .canvassing
+    {
+        width: 100%;
+        height: 60%;
+        padding: 0;
+        margin-top: 15%;
+        
+    }
+    .imagess
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+    }
+    .incident
+    {
+        width: 100%;
+        height: 60%;
+       padding: 0;
+       margin-bottom: 0;
+    }
+
+        

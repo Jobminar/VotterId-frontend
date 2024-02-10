@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="form-container">
+        <div class="cross"><i class="fa fa-close" style="font-size:24px;color: aliceblue;"></i></div>
+        <form #formData="ngForm" class="incident-form" (ngSubmit)="submitForm(formData.value)">
+            
+            <h1>Report Incident</h1>
+            <input type="text" placeholder="Incident" name="incident" id="incident" ngModel class="input-area">
+            <br><textarea type="text" placeholder="write your comment here" name="report" id="report" ngModel class="input-area"></textarea>
+            <div class="file"><label>Attach a file</label>
+            <br><input type="file" id="file" name="file" ngModel></div>
+            <br><button type="submit">Submit</button>
+        </form>
+    </div>
+</div>

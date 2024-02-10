@@ -1,0 +1,51 @@
+.container{
+    margin: 0.5rem;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.form-container
+{
+    width: 90%;
+    height: 60%;
+    margin-top: 5rem;
+    margin-left: 0.5rem;
+    box-shadow: 0 0 0.5rem black;
+    border-radius: 0.4rem;
+}
+.incident-form
+{
+    display: grid;
+    row-gap: 0.5rem;
+    width: 80%;
+    margin: 2rem;
+    
+}
+.cross
+{
+    background-color: red;
+    width: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.input-area
+{
+    height:150%;
+    border: 1px solid gray;
+}
+.file
+{
+    margin-top: 1rem;
+}
+.incident-form button
+{
+    width: 4rem;
+    height: 2rem;
+    margin-top: 0;
+    background-color:rgb(22, 82, 223);
+    color: white;
+    
+}
